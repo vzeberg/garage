@@ -1,3 +1,6 @@
+import pandas as pd
+
+
 def find_second_index(symbol, sequence):
     i = 0
     for index, element in enumerate(sequence):
